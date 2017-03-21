@@ -44,20 +44,10 @@ header {
     justify-content: space-between;
 }
 
-
-
-img {
-    max-width: 100% !important;
-    display: block;
-}
-
-.image-wrap {
-    display: inline-block;
-    max-width: 100%;
-}
-
 .promo-container .promo-item {
+    display: inline-block;
     margin: 1rem;
+    max-width: 100%;
 }
 
 .img-fluid {
