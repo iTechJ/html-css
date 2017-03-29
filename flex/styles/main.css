@@ -20,6 +20,26 @@ h1, h2 {
     flex-direction: column;
 }
 
+.flex.justify.flex-start {
+    justify-content: flex-start;
+}
+
+.flex.justify.space-between {
+    justify-content: space-between;
+}
+
+.flex.justify.space-around {
+    justify-content: space-around;
+}
+
+.flex.justify.flex-end {
+    justify-content: flex-end;
+}
+
+.flex.justify.center {
+    justify-content: center;
+}
+
 .flex.items {
     height: 30vh;
     margin-bottom: 1rem;
