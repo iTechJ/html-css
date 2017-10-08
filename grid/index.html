@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<article>
+    <h1>
+        Grid Layout Columns & Rows
+    </h1>
+    <section>
+        <h2>
+            Grid 3 x 3
+        </h2>
+        <div class="example-code">
+
+        </div>
+        <div class="grid basic-3-3">
+            <div class="item red"></div>
+            <div class="item green"></div>
+            <div class="item blue"></div>
+            <div class="item red"></div>
+            <div class="item green"></div>
+            <div class="item blue"></div>
+            <div class="item red"></div>
+            <div class="item green"></div>
+            <div class="item blue"></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>
+            Grid 3 x 3 - ordered rows & columns
+        </h2>
+        <div class="example-code">
+
+        </div>
+        <div class="grid basic-3-3">
+            <div class="item red col-3 row-3"></div>
+            <div class="item green row-3 col-2"></div>
+            <div class="item blue row-2 col-3"></div>
+            <div class="item red col-2 row-2"></div>
+            <div class="item green row-1 col-3"></div>
+            <div class="item blue"></div>
+            <div class="item red col-1 row-1"></div>
+            <div class="item green row-2 col-1"></div>
+            <div class="item blue"></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>
+            Grid Named Areas
+        </h2>
+        <div class="grid named-areas">
+            <header class="item red">
+                <p>header</p>
+            </header>
+            <nav class="item green">
+                <ul>
+                    <li><a href="#">link 1</a></li>
+                    <li><a href="#">link 2</a></li>
+                    <li><a href="#">link 3</a></li>
+                    <li><a href="#">link 4</a></li>
+                </ul>
+            </nav>
+            <main class="item blue">
+                <p>
+                    main
+                </p>
+            </main>
+            <footer class="item red">
+                <p>footer</p>
+            </footer>
+        </div>
+    </section>
+</article>
+</body>
+</html>
